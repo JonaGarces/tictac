@@ -69,3 +69,16 @@ li {
   padding: 0.5rem;
   margin: 0.5rem 1rem;
 }
+.row {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.form {
+  background: black;
+  color: white;
+  border: white;
+  width: 240px;
+  height: 20px;
+  text-align: center;
+}

@@ -40,6 +40,12 @@ const Game = () => {
   return (
     <>
       <h1>¡¡¡TicTacToe with React.js!!!</h1>
+      
+        <div className="row">
+          <input className="form" placeholder="Jugador 'X'"></input>
+          <input className="form" placeholder="Jugador 'O'"></input>
+        </div>
+ 
       <Board squares={history[stepNumber]} onClick={handleClick} />
       <div className="info-wrapper">
         <div>
